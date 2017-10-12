@@ -39,7 +39,7 @@ class Owner
 
   def pets=(pet)
     @pet = pet
-  end 
+  end
 
   def pets
     @pets
