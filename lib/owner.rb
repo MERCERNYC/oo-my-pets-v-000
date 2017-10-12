@@ -46,10 +46,10 @@ class Owner
       is_fish?(fish)
   end
   end
-  fish = self.new
-  fish.name = "Bubbles"
-  fish
-  end
+  # fish = self.new
+  # fish.name = "Bubbles"
+  # fish
+  # end
 
 
 #
