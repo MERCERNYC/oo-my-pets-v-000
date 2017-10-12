@@ -37,10 +37,6 @@ class Owner
     @name = name
   end
 
-  # def pets=(pet)
-  #   @pet = pet
-  # end
-
   def pets
     @pets
   end
