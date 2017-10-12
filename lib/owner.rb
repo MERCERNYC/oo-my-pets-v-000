@@ -69,7 +69,7 @@ class Owner
     @pets.each do |type, pets| #(Value=pets)iterate over an hash
     pets. each do |pet| pet.mood = "nervous"} #iterate over an array and change the mood
   end
-  @pets[type].clear
+  # @pets[type].clear
   end
 
   def list_pets
