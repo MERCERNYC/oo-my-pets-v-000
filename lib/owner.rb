@@ -43,7 +43,6 @@ class Owner
 
   def self.buy_fish(fish)
     fish = Fish.new(name) #initializing it with that name*
-    fish.owner = self
     self.pets[:fishes] << fish
   end
 
