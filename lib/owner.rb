@@ -42,8 +42,9 @@ class Owner
   end
 
   def self.buy_fish(fish)
-    fish = Fish.new(name) #initializing it with that name*
-    self.pets[:fishes] << fish
+  self.pets[:fishes].each do |fish|
+    is_fish?(fish)
+  end
   end
 
 
