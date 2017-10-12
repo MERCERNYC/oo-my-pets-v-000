@@ -45,6 +45,7 @@ class Owner
   self.pets[:fishes].select do |fish|
     is_fish?(fish)
   end
+end 
   fish = self.new
   fish.name = "Bubbles"
   fish
