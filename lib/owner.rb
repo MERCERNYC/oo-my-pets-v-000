@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
   attr_accessor :name
-  attr_reader :pets
+  attr_writer :pets
 
   @@all = []
 
