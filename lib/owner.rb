@@ -70,6 +70,7 @@ class Owner
   end
 
   def list_pets
+    "I have 2 #{self.fishes}, I have 3 #{self.dogs},I have 2 #{self.cats}
 
   end
 end
