@@ -69,7 +69,7 @@ class Owner
     @pets.each do |type, pet|
       pet.each do |pet| pet.mood = "nervous"
     end
-      @pets[type].clear
+      # @pets[type].clear
     end
   end
 
