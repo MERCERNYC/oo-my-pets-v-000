@@ -1,7 +1,7 @@
 require 'pry'
 
 class Owner
-  attr_accessor :name 
+  attr_accessor :name
   attr_reader :pets
 
   @@all = []
@@ -36,6 +36,10 @@ class Owner
   def name=(name)
     @name = name
   end
+
+  def pets=(pet)
+    @pet = pet
+  end 
 
   def pets
     @pets
