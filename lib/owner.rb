@@ -54,18 +54,19 @@ class Owner
   end
 
   def walk_dogs
+    @pets[:dogs] each do {|dog| Dog.mood = "Happy"}
   end 
 
   def play_with_cats
-  end 
+  end
 
   def feed_fish
-  end 
+  end
 
   def sell_pets
-  end 
+  end
 
   def list_pets
-    
-  end 
+
+  end
 end
