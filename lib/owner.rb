@@ -42,9 +42,12 @@ class Owner
   end
 
   def self.buy_fish(fish)
-  self.pets[:fishes].each do |fish|
+  self.pets[:fishes].select do |fish|
     is_fish?(fish)
   end
+  fish = self.new
+  fish.name = "Bubbles"
+  fish
   end
 
 
