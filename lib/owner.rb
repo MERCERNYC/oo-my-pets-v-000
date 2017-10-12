@@ -1,8 +1,8 @@
 require 'pry'
 
 class Owner
-  attr_accessor :species
-  attr_writer :pets :name
+  attr_accessor :name
+  attr_writer :pets
 
   @@all = []
 
@@ -33,9 +33,10 @@ class Owner
     "I am a #{self.species}."
   end
 
-  # def name=(name)
-  #   @name = name
-  # end
+  def name=(name)
+    @name = name
+  end
+
 
   def pets
     @pets
